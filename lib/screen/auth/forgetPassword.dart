@@ -32,7 +32,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
               const SizedBox(height: 15),
               LoginField(
                 hintText: 'Email',
-                controller: email,
+                controller: email, obscureText: false,
               ),
               const SizedBox(height: 15),
               isTapped

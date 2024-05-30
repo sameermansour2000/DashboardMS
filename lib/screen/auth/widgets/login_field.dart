@@ -5,8 +5,9 @@ import '../pallete.dart';
 class LoginField extends StatelessWidget {
   final String hintText;
   final TextEditingController controller;
+  final bool obscureText;
 
-  const LoginField({Key? key, required this.hintText, required this.controller})
+  const LoginField({Key? key, required this.hintText, required this.controller, required this.obscureText})
       : super(key: key);
 
   @override
@@ -16,7 +17,8 @@ class LoginField extends StatelessWidget {
         maxWidth: 400,
       ),
       child: TextFormField(
-        controller: controller,obscureText: true,
+        controller: controller,
+        obscureText: obscureText,
         decoration: InputDecoration(
           contentPadding: const EdgeInsets.all(27),
           enabledBorder: OutlineInputBorder(

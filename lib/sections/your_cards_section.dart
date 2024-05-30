@@ -5,7 +5,6 @@ import 'package:fintech_dashboard_clone/widgets/category_box.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
-import '../screen/chat/colors.dart';
 import '../styles/styles.dart';
 
 class CardsSection extends StatefulWidget {
@@ -121,7 +120,7 @@ class _CardsSectionState extends State<CardsSection> {
                 backgroundColor: const Color(0xfffab585),
                 title: Image.asset(
                   'assets/logo_text.png',
-                  color: primaryColor,
+                  color: Colors.red,
                   height: 50,
                 ),
                 content: Column(
@@ -142,7 +141,7 @@ class _CardsSectionState extends State<CardsSection> {
                     onTap: () {
                       Navigator.pop(context);
                       sendPushMessageToTopic(
-                          notificationController.text, 'WE CAN');
+                          notificationController.text, 'Money Saving');
                     },
                     child: Container(
                         width: MediaQuery.of(context).size.width / 2,

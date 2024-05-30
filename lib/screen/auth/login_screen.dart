@@ -30,12 +30,12 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 15),
               LoginField(
                 hintText: 'Email',
-                controller: email,
+                controller: email, obscureText: false,
               ),
               const SizedBox(height: 15),
               LoginField(
                 hintText: 'Password',
-                controller: pass,
+                controller: pass, obscureText: true,
               ),
               const SizedBox(height: 20),
               GradientButton(

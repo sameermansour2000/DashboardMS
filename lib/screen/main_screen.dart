@@ -22,10 +22,6 @@ class MainScreen extends StatelessWidget {
           flex: 5,
           child: Column(
             children: [
-              // const Expanded(
-              //   flex: 2,
-              //   child: ExpenseIncomeCharts(),
-              // ),
               Expanded(
                 child: Padding(
                   padding: EdgeInsets.symmetric(
@@ -34,7 +30,7 @@ class MainScreen extends StatelessWidget {
                   child: const UpgradeProSection(),
                 ),
               ),
-              Expanded(
+              const Expanded(
                 flex: 2,
                 child: LatestTransactions(),
               ),

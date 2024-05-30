@@ -176,14 +176,14 @@ class _ClientsState extends State<Clients> {
                                               InkWell(
                                                 onTap: () {
                                                   Navigator.pop(context);
-                                                  Navigator.push(
-                                                      context,
-                                                      MaterialPageRoute(
-                                                          builder: (context) =>
-                                                              ClientServicesPage(
-                                                                  userId: client[
-                                                                          index]
-                                                                      ['id'])));
+                                                  // Navigator.push(
+                                                  //     context,
+                                                  //     MaterialPageRoute(
+                                                  //         builder: (context) =>
+                                                  //             ClientServicesPage(
+                                                  //                 userId: client[
+                                                  //                         index]
+                                                  //                     ['id'])));
                                                 },
                                                 child: Container(
                                                     width:

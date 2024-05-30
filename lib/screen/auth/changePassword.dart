@@ -31,7 +31,7 @@ class _ChangePasswordState extends State<ChangePassword> {
               const SizedBox(height: 15),
               LoginField(
                 hintText: 'New Password',
-                controller: pass,
+                controller: pass, obscureText: true,
               ),
               const SizedBox(height: 15),
               const SizedBox(height: 15),

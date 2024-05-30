@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class LatestTransactions extends StatefulWidget {
-  LatestTransactions({Key? key}) : super(key: key);
+  const LatestTransactions({Key? key}) : super(key: key);
 
   @override
   _LatestTransactionsState createState() => _LatestTransactionsState();
